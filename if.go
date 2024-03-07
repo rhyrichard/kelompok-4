@@ -11,7 +11,7 @@ func main() {
 	var input string
 	fmt.Scanln(&input)
 
-	// Mengonversi string input menjadi tipe data time.Time
+	//Mengonversi string input menjadi tipe data time.Time
 	tanggalLahir, err := time.Parse("2006-01-02", input)
 	if err != nil {
 		fmt.Println("Format tanggal tidak valid. Gunakan format YYYY-MM-DD.")
